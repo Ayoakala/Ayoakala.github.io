@@ -11778,7 +11778,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Final-Tutorial---Around-the-World-in-80-Days">Final Tutorial - Around the World in 80 Days<a class="anchor-link" href="#Final-Tutorial---Around-the-World-in-80-Days">&#182;</a></h1><h3 id="By-Imad-Khokher-and-Ayokiitan-Akala">By Imad Khokher and Ayokiitan Akala<a class="anchor-link" href="#By-Imad-Khokher-and-Ayokiitan-Akala">&#182;</a></h3>
+<h1 id="Final-Tutorial---Around-the-World-in-80-Days">Final Tutorial - Around the World in 80 Days<a class="anchor-link" href="#Final-Tutorial---Around-the-World-in-80-Days">&#182;</a></h1><h3 id="By-Ayokiitan-Akala">By Ayokiitan Akala<a class="anchor-link" href="#By-Ayokiitan-Akala">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -11789,7 +11789,7 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Brief-Introduction">Brief Introduction<a class="anchor-link" href="#Brief-Introduction">&#182;</a></h2><p>For this tutorial, we landed on a dataset from the World Bank which is publicly available and updated annually:
 <a href="http://databank.worldbank.org/data/reports.aspx?Code=NY.GDP.MKTP.KD.ZG&amp;id=1ff4a498&amp;report_name=Popular-Indicators&amp;populartype=series&amp;ispopular=y">http://databank.worldbank.org/data/reports.aspx?Code=NY.GDP.MKTP.KD.ZG&amp;id=1ff4a498&amp;report_name=Popular-Indicators&amp;populartype=series&amp;ispopular=y</a></p>
-<p>This dataset coalesces all the popular indicators of different geographic regions around the world, separated by countries. There were countless indicators present within this dataset, but we specifically chose a few to zoom into and take a closer look at for critical observing. Some different factors that we chose include: Total country population, Mortality rates, Life expectancy at birth, Poverty headout, etc. This dataset separates the information and delivers it via chronological order, with records dating back to 2000 and going all the way up until 2015. We wanted to observe some potential relationships between these factors in order to make some conclusions, or generalizations, about these different indicators.</p>
+<p>This dataset coalesces all the popular indicators of different geographic regions around the world, separated by countries. There were countless indicators present within this dataset, but we specifically chose a few to zoom into and take a closer look at for critical observing. Some different factors that we chose include: Total country population, Mortality rates, Life expectancy at birth, Poverty headcount, etc. This dataset separates the information and delivers it via chronological order, with records dating back to 2000 and going all the way up until 2015. We wanted to observe some potential relationships between these factors in order to make some conclusions, or generalizations, about these different indicators.</p>
 
 </div>
 </div>
@@ -25822,7 +25822,7 @@ hBBCCCFEEZEkTwghhBBCCCGKiCR5QgghhBBCCFFE/n9fpLr5B4FjdwAAAABJRU5ErkJggg==
 <li>Nigeria</li>
 <li>United Arab Emirates</li>
 </ul>
-<p>For these plots we used plotly which is also a very new Python API; it is great for plotting data, we feel it makes it much easier to digest and more intuitive to use than Matplotlib. We decided to use this API just to show that there are many ways to skin a cat and that Python is such a great tool for creativity and just about anyone and make a great contribution and help someone else out. We will be performing Hypothesis Testing on these 7 countries later on and conduct ML on them to predict what 2016 may hold (although the World bank would be publishing their finding soon!). We locate the the different the different countries using pandas loc function kind of like list interpretation in python.</p>
+<p>For these plots we used plotly which is also a very new Python API; it is great for plotting data, we feel it makes it much easier to digest and more intuitive to use than Matplotlib. We decided to use this API just to show that there are many ways to skin a cat and that Python is such a great tool for creativity and just about anyone and make a great contribution and help someone else out. We will be performing Hypothesis Testing on these 7 countries later on and conduct ML on them to predict what 2016 may hold (although the World bank would be publishing their finding soon!). We locate the different countries using pandas loc function kind of like list interpretation in python.</p>
 <p><a href="https://plot.ly/python/line-charts/">https://plot.ly/python/line-charts/</a></p>
 
 </div>
@@ -31541,9 +31541,41 @@ SUVORK5CYII=
 <p>We can see from our ML that if we wanted to predict 2016 or even 2017 Popular indicators that our go to Learning Algorithm would be the Random Forest Algorithm with a very promising score but if we would like to put accuracy at the back burner and reduce computation we could use the Decision Tree Algorithm as we saw that Random Forest is the superset of the Decision Tree. There are still a multitude of different learning algorithms out there and we only scratched the surface a of a few Supervised learning ones which is a subset of Artificial Intelligence. Some other classifications of learning algorithms are: Unsupervised, Reinforcement, and  Deep Learning. We challenge you to to predict 2016 scores when the World Bank publishes them and see how accurate you get your values to be!</p>
 <p>Alternatively, we can see from hypothesis testing that we can test the presence of correlation between two seemingly relevant factors through the virtue of a basic regression test. By leveraging these tests, we can see test the strength of potential correlations by the coefficients, and visually confirm these correlations using scatterplots and predicted regression lines. The goal of these tests are to ultimately help you understand your data better and make inferences about different situational infrastructures beyond the data presented to you. It will effectively convert the data from raw numbers into real insight about a more meaningful problem being approached beyond it.</p>
 <p>Ultimately, Data Science has been proven as a wonderful discipline, and CMSC 320 has done an incredible job exposing us to some of the basics! We hope you enjoyed following our tutorial!</p>
+<h2 id="Sources-and-Further-Readings-on-Topic">Sources and Further Readings on Topic<a class="anchor-link" href="#Sources-and-Further-Readings-on-Topic">&#182;</a></h2><ul>
+<li>More indicators to look at from the Bank:
+<a href="https://data.worldbank.org/indicator">https://data.worldbank.org/indicator</a></li>
+<li>General statistics on diffenrent continents (this went into choosing out case studies):
+<a href="http://www.nationsonline.org/oneworld/world_population.htm">http://www.nationsonline.org/oneworld/world_population.htm</a></li>
+<li>World Bank API: <a href="http://search.worldbank.org/api/v2/wds">http://search.worldbank.org/api/v2/wds</a></li>
+<li>Correleations between Life expectancy and Mortality rate curated by the World Health Organization: <a href="http://www.who.int/whosis/whostat2006DefinitionsAndMetadata.pdf">http://www.who.int/whosis/whostat2006DefinitionsAndMetadata.pdf</a></li>
+<li>Blog Post about upcoming 2016 World Bank Data: <a href="https://blogs.worldbank.org/opendata/2016-edition-world-development-indicators-out-three-features-you-won-t-want-miss">https://blogs.worldbank.org/opendata/2016-edition-world-development-indicators-out-three-features-you-won-t-want-miss</a></li>
+<li>Goals of the Wrold Bank: <a href="http://documents.worldbank.org/curated/en/217571493883555677/Atlas-of-sustainable-development-goals-2017-from-World-Development-Indicators">http://documents.worldbank.org/curated/en/217571493883555677/Atlas-of-sustainable-development-goals-2017-from-World-Development-Indicators</a></li>
+</ul>
+<h2 id="Techincal-Reading-(Hypothesis-Testing-and-Machine-Learning)">Techincal Reading (Hypothesis Testing and Machine Learning)<a class="anchor-link" href="#Techincal-Reading-(Hypothesis-Testing-and-Machine-Learning)">&#182;</a></h2><ul>
+<li>Random Forest Explanation: <a href="https://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm">https://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm</a></li>
+<li>Decision Tree Explaniation: <a href="https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052">https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052</a></li>
+<li>K-Nearest Neighbour Explanation: <a href="https://www.analyticsvidhya.com/blog/2014/10/introduction-k-neighbours-algorithm-clustering/">https://www.analyticsvidhya.com/blog/2014/10/introduction-k-neighbours-algorithm-clustering/</a></li>
+<li>How I understood Machine Learning: <a href="https://www.coursera.org/learn/machine-learning">https://www.coursera.org/learn/machine-learning</a></li>
+<li>Some extra reinforcement from Hal Daume: <a href="http://ciml.info/">http://ciml.info/</a></li>
+<li>Hypothesis Testing Overview: <a href="http://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/">http://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/</a></li>
+<li>Reject or confirm Null Hypothesis: <a href="http://stattrek.com/statistics/dictionary.aspx?definition=Null%20hypothesis">http://stattrek.com/statistics/dictionary.aspx?definition=Null%20hypothesis</a></li>
+</ul>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
 </div>
     </div>
   </div>
